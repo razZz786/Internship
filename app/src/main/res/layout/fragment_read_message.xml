@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.project.internship.employer.fragment.ReadMessage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="senderid"
+        android:textColor="#000"
+        android:id="@+id/readsender"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/readsender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="senderid"
+        android:textColor="#000"
+        android:id="@+id/readdate"/>
+    <TextView
+        android:layout_below="@+id/readdate"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="message"
+        android:textColor="#000"
+        android:id="@+id/readmessage"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Replay"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:id="@+id/readreplay"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+   android:padding="10dp"
+    tools:context="com.project.internship.employer.view.EmployeSignUp">
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+        <LinearLayout
+            android:background="#70000000"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:textSize="39sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/comanyname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Company Name"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Lastname"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Contact"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/cpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttogreen"
+                android:text="Sign up"
+
+                android:onClick="registerCompany"/>
+        </LinearLayout>
+ </ScrollView>
+    </LinearLayout>
+
+

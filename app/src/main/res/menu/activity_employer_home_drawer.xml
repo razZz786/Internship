@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/post_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_eprofile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_echangepassword"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/post_int"
+            android:title="Post Internship" />
+
+        <item
+            android:id="@+id/nav_eapply"
+            android:title="Applied Internships" />
+        <item
+            android:id="@+id/nav_eoutbox"
+            android:title="Outbox" />
+
+    </group>
+
+    <item android:title="More">
+        <menu>
+
+            <item
+                android:id="@+id/nav_signout"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+
+</menu>
